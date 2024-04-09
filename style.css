@@ -1,0 +1,29 @@
+html {
+
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+body{
+    background: url('bgim.jpg');
+    background-size: cover;
+}
+
+#bgim {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+}
+
+
+
+#canvas1{
+    background-image: url("Hubble_ultra_deep_field.jpg");
+    position: absolute;
+    top: 10%;
+    left: 27.5%;
+}
+.hidden{
+    display: none;
+}
